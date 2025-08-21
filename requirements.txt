@@ -3,7 +3,6 @@ langchain==0.1.0
 langchain-community==0.0.10
 transformers==4.35.0
 torch==2.8.0
-faiss-cpu==1.7.4
 sentence-transformers==2.2.2
 pypdf2==3.0.1
 python-docx==0.8.11
@@ -13,3 +12,4 @@ pandas==2.0.3
 plotly==5.17.0
 openai==1.3.0
 python-dotenv==1.0.0
+# faiss-cpu removed for compatibility with Python 3.13 and uv pip install
