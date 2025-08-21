@@ -12,4 +12,4 @@ pandas==2.0.3
 plotly==5.17.0
 openai==1.3.0
 python-dotenv==1.0.0
-# faiss-cpu removed for compatibility with Python 3.13 and uv pip install
+faiss-cpu==1.7.4
